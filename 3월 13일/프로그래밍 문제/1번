@@ -1,0 +1,18 @@
+package code;
+
+public class coding {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String star = "*";
+		System.out.printf("%6s\n", star);
+		System.out.printf("%5s%s%s\n", star, star, star);
+		System.out.printf("%4s%s%s%s%s\n", star, star, star, star, star);
+		System.out.printf("%3s%s%s%s%s%s%s\n", star, star, star, star, star, star, star);
+		System.out.printf("%2s%s%s%s%s%s%s%s%s\n", star, star, star, star, star, star, star, star, star);
+		System.out.printf("%1s%s%s%s%s%s%s%s%s%s%s\n", star, star, star, star, star, star, star, star, star, star,
+				star);
+
+	}
+
+}
