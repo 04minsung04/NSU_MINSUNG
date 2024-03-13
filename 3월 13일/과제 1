@@ -1,0 +1,20 @@
+package code;
+
+import java.util.Scanner;
+
+public class coding {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		double w, h, area;
+
+		System.out.println("직사각형의 가로와 세로의 길이를 입력하십시오: ");
+		w = in.nextDouble();
+		h = in.nextDouble();
+		area = w * h;
+
+		System.out.printf("가로의 길이가 %f이고 세로의 길이가 %f인 직사각형의 넓이는 %f입니다.", w, h, area);
+	}
+
+}
