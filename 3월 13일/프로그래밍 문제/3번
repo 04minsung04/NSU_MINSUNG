@@ -1,0 +1,18 @@
+package code;
+
+import java.util.Scanner;
+
+public class coding {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		double r, h, area;
+		System.out.printf("원기둥 밑면의 반지름을 입력하십시오: ");
+		r = in.nextFloat();
+		System.out.printf("원기둥의 높이를 입력하십시오: ");
+		h = in.nextFloat();
+		area = 3.14 * r * r * h;
+		System.out.printf("원기둥의 부피는 %f입니다.", area);
+	}
+}
