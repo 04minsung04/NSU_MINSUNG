@@ -1,0 +1,19 @@
+package chap01;
+import java.util.Scanner;
+
+public class chap06 {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		Scanner in = new Scanner(System.in);
+		System.out.print("숫자를 입력하십시오: ");
+		int number = in.nextInt();
+		
+		if(number % 2 == 0)
+			System.out.println("해당 값은 짝수입니다.");
+		else
+			System.out.println("해당 값은 홀수입니다.");
+		System.out.println("프로그램 종료");
+	}
+
+}
