@@ -1,0 +1,25 @@
+package code;
+
+import java.util.Scanner;
+
+public class coding {
+
+	public static void main(String[] args) {
+		Scanner in = new Scanner(System.in);3
+		System.out.print("시작 부분을 입력하십시오: ");
+		int start = in.nextInt();
+		System.out.print("종료 부분을 입력하십시오: ");
+		int end = in.nextInt();
+		int result = factorial(start, end);
+
+		System.out.println("결과값은 " + result + "입니다.");
+	}
+
+	public static int factorial(int start, int end) {
+		int result = 1;
+		for (int i = start; i <= end; i++) {
+			result *= i;
+		}
+		return result;
+	}
+}
