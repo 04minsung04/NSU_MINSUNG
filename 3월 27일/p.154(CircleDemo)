@@ -1,6 +1,6 @@
 package chap04;
 
-public class CircleDemo2 {
+public class CircleDemo {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
@@ -9,6 +9,10 @@ public class CircleDemo2 {
 		
 		System.out.println("원의 개수: " + Circle.numOfCurcles);
 		System.out.println("원의 개수: " + yourCircle.numCircles);
+	}
+	
+	void print() {
+		System.out.println("인스턴스 메서드입니다.");
 	}
 
 }
