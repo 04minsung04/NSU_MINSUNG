@@ -1,0 +1,43 @@
+package Coding;
+
+import java.util.Scanner;
+
+public class Code {
+
+	public static void printDay(String day) {
+		switch (day.toLowerCase()) {
+		case "Monday":
+		case "MONDAY":
+		case "monday":
+			System.out.println("월요일은 싫다.");
+			break;
+		case "Friday":
+		case "FRIDAY":
+		case "friday":
+			System.out.println("금요일은 좋다.");
+			break;
+		case "Saturday":
+		case "SATURDAY":
+		case "saturday":
+			System.out.println("토요일은 최고.");
+			break;
+		case "Sunday":
+		case "SUNDAY":
+		case "sunday":
+			System.out.println("일요일은 최고.");
+			break;
+		default:
+			System.out.println("그저 그렇다.");
+		}
+	}
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+
+		System.out.print("요일을 입력하십시오: ");
+		String day = scanner.nextLine();
+
+		printDay(day);
+	}
+
+}
